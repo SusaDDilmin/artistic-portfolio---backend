@@ -9,7 +9,7 @@ export class AppController {
   getServerHealth(): { status: string; message: string } {
     return {
       status: 'ok',
-      message: 'Server is running...',
+      message: 'Server is healthy',
     };
   }
 }
